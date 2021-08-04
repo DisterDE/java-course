@@ -15,16 +15,16 @@ fun main() {
 
 // task2
 fun createAllVariablesAndShowYourTeacherThatYouAreNotUselessAsShit() {
-    var b: Byte = 1
-    var s: Short = 2
-    var i: Int = 3
-    var l: Long = 4L
+    val b: Byte = 1
+    val s: Short = 2
+    val i: Int = 3
+    val l: Long = 4L
 
-    var f: Float = 1.0f
-    var d: Double = 2.0
+    val f: Float = 1.0f
+    val d: Double = 2.0
 
-    var c: Char = 'j'
-    var str: String = "I'm sexy and I know it"
+    val c: Char = 'j'
+    val str: String = "I'm sexy and I know it"
 }
 
 // task3
