@@ -38,10 +38,7 @@ fun IntArray.isBalanced(): Boolean {
         sum -= this[currentIndex]
         currentIndex++
     }
-    if (currentSum == sum) {
-        return true
-    }
-    return false
+    return currentSum == sum
 }
 
 // task7
