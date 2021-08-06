@@ -3,13 +3,16 @@ package com.kachalov.gu.android.java.lesson2
 import kotlin.math.abs
 
 // task1
-fun IntArray.invert() = map { it xor 1 }
+fun IntArray.invert() =
+    map { it xor 1 }.toIntArray()
 
 // task2
-fun IntArray.fillWithDividersOf3() = mapIndexed { i, _ -> i * 3 }
+fun IntArray.fillWithDividersOf3() =
+    mapIndexed { i, _ -> i * 3 }.toIntArray()
 
 // task3
-fun IntArray.multiplyLowNumbersBy2(maxValue: Int) = filter { it < maxValue }.map { it * 2 }
+fun IntArray.multiplyLowNumbersBy2(maxValue: Int) =
+    filter { it < maxValue }.map { it * 2 }.toIntArray()
 
 
 // task4
