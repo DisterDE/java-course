@@ -12,7 +12,7 @@ fun IntArray.fillWithDividersOf3() =
 
 // task3
 fun IntArray.multiplyLowNumbersBy2(maxValue: Int) =
-    filter { it < maxValue }.map { it * 2 }.toIntArray()
+    map { if (it < maxValue) it * 2 else it }.toIntArray()
 
 
 // task4
