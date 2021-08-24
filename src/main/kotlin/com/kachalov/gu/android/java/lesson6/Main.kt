@@ -16,4 +16,12 @@ fun main() {
         it.run(nextInt(1, 600))
         it.swim(nextInt(1, 15))
     }
+
+    println(
+        """
+        Animals: ${Animal.count}
+        Cats: ${Cat.count}
+        Dogs: ${Dog.count}
+    """.trimIndent()
+    )
 }
